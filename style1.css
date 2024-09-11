@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", system-ui;
+}
+
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  background-color: white;
+  width: 90%;
+  height: 380px;
+  max-width: 1200px;
+  /* border-radius: 20px; */
+  overflow: hidden;
+  padding: 30px;
+}
+
+.left-section {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.left-section h1 {
+  font-size: 36px;
+  /* margin-bottom: 20px; */
+}
+
+.left-section p {
+  font-size: 16px;
+  color: #555;
+  /* margin-bottom: 30px; */
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+}
+
+.stat-box {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  /* text-align: center; */
+  height: 98px;
+  width: 150px;
+  border: 1px solid rgb(220, 240, 253);
+  gap: 8px;
+  padding-left: 10px;
+  padding-top: 13px;
+}
+
+.stat-box h3 {
+  font-size: 28px;
+  width: 114px;
+  height: 34px;
+  margin-bottom: 12px;
+  font-weight: 700;
+  /* margin-right: 50px; */
+}
+
+.stat-box p {
+  font-size: 16px;
+  color: #555;
+  font-weight: 500;
+}
+
+.right-section {
+  flex: 1;
+  padding-left: 20px;
+  background-color: #fefaf6;
+  border-radius: 15px;
+  padding: 20px;
+  position: relative;
+}
+
+.testimonial {
+  position: relative;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 14px; */
+}
+
+.profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.profile-info {
+  /* text-align: left; */
+  margin-right: 260px;
+}
+
+.profile-info h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.profile-info p {
+  font-size: 14px;
+  color: #555;
+}
+
+.rating {
+  background-color: rgba(236, 145, 5, 1);
+  color: white;
+  padding: 0px;
+  border-radius: 100px;
+  font-size: 16px;
+  width: 54px;
+  height: 25px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.testimonial-text {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #555;
+  line-height: 24px;
+}
+
+.testimonial-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.progress-bar {
+  width: 80%;
+  height: 5px;
+  background-color: #e0e0e0;
+  position: relative;
+  border-radius: 5px;
+}
+
+.progress {
+  width: 30%;
+  height: 100%;
+  background-color: #ffa500;
+  border-radius: 5px;
+}
+
+.mcb {
+  margin-bottom: 40px;
+}
